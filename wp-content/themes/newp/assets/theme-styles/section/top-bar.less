@@ -1,0 +1,29 @@
+/* TOP MENU */
+#top-bar {
+  background: none;
+  @media screen and (max-width: 767px) {
+    border-top: solid 1px;
+  }
+  // 	border-bottom: solid 5px darken(#d84242, 10%);;
+  .top-bar-inner {
+    padding: 0;
+    background: @menu-bg;
+    border: solid 1px lighten(@background, 8%);
+    border-top: none;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    &:before {
+      width: 100%;
+      height: 1px;
+      content: "";
+      background: @menu-bg;
+      position: relative;
+      top: -3px;
+    }
+  }
+  .social-icons {
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+}

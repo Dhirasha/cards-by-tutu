@@ -1,0 +1,245 @@
+.body-font {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.title-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  .body-font;
+  background: @background;
+  word-wrap: break-word;
+  color: @content;
+}
+#page {
+
+}
+.mega-container {
+  max-width: 1170px;
+  margin: auto;
+  overflow: visible;
+  margin-top: 30px;
+  @media screen and (max-width: 767px) {
+    margin-top: 10px;
+  }
+}
+a {
+  color: @accent;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    color: @accent;
+  }
+}
+.container {
+  margin: auto;
+  max-width: 100%;
+}
+::selection {
+  color: @onaccent;
+  background: @accent;
+}
+
+
+
+
+/* section titles */
+.section-title {
+  font-weight: normal;
+  color: @accent;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-transform: none;
+  font-weight: bold;
+  text-indent: 10px;
+  font-size: 20px;
+  @media screen and (max-width: 991px) {
+    margin-top: 20px;
+  }
+}
+
+
+
+#content {
+  margin-top: 30px;
+  padding: 0;
+}
+
+
+
+/* Nevler Layout */
+.nevler {
+  h2.entry-title {
+    font-size: 34px;
+    margin: 0;
+    margin-bottom: 8px;
+    a {
+      color: black;
+    }
+  }
+  .out-thumb {
+    padding-left: 1px;
+    .entry-excerpt {
+      font-size: 15px;
+    }
+    .postedon {
+      a {
+        text-decoration: none;
+        padding: 1px 4px;
+        display: inline-block;
+        .transition(0.2s all ease);
+        border-radius: 1px;
+        &:hover {
+          .transform(scale(1.05));
+        }
+      }
+      .categories a {
+        background: @accent;
+        color: @onaccent;
+      }
+      .posted-on a {
+        background: #555;
+        color: white;
+        margin-left: 3px;
+      }
+      .byline {
+        background: #d84242;
+        color: @onaccent;
+        padding: 0 4px;
+        margin-left: 3px;
+        border-radius: 1px;
+        a {
+          color: @onaccent;
+          padding: 1px 2px;
+        }
+      }
+    }
+  }
+}
+
+.sticky.nevler, .format-video.nevler, .format-image.nevler {
+  h2.entry-title {
+    &:before {
+      content: "\f005";
+      font-family: "FontAwesome";
+      font-size: 25px;
+      margin-right: 9px;
+      opacity: 0.95;
+      position: relative;
+      bottom: 2px;
+    }
+  }
+}
+.format-video.nevler {
+  h2.entry-title {
+    &:before {
+      content: "\f16a";
+    }
+  }
+}
+.format-image.nevler {
+  h2.entry-title {
+    &:before {
+      content: "\f030";
+    }
+  }
+}
+
+/* Revive Layout */
+
+.revive {
+  margin: 2px;
+  border: none;
+  position: relative;
+  float: left;
+  overflow: hidden;
+
+  img {
+    transform: scale(1.05);
+    .transition(0.8s all ease);
+  }
+
+  .postdate {
+    display: inline-block;
+    padding: 2px;
+    color: white;
+    width: 50px;
+    background: @accent;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    z-index: 10;
+    .transition(0.4s all ease);
+    pointer-events: none;
+
+    span {
+      display: block;
+      margin-bottom: -5px;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+    .day {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 0px;
+      font-weight: normal;
+    }
+  }
+  .out-thumb {
+    position: absolute;
+    right: -30px;
+    opacity: 0;
+    bottom: 5px;
+    .transition(0.8s all ease);
+    transition-delay: 0.2s;
+    h1 {
+      font-size: 15px;
+      a {
+        padding: 8px;
+        display: block;
+        max-width: 80%;
+        float: right;
+        background: black;
+        color: white;
+        font-weight: lighter;
+      }
+    }
+  }
+  /*
+&:nth-child(even) {
+      .out-thumb {
+          h1 a {
+              background: @accent;
+              color: white;
+              font-weight: normal;
+          }
+      }
+  }
+*/
+  &:hover {
+    img {
+      -webkit-filter: brightness(0.5) blur(1px);
+      filter: brightness(0.5) blur(1px);
+      transform: scale(1.15);
+    }
+    .out-thumb {
+      right: 0;
+      opacity: 1;
+    }
+  }
+
+}
+
+.panel {
+  background: none;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  #primary {
+    float: none !important;
+  }
+}

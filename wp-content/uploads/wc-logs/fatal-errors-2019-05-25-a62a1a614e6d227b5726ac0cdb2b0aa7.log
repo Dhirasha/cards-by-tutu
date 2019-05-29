@@ -1,0 +1,12 @@
+2019-05-25T05:54:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\widgets\class-wp-widget-recent-posts.php on line 17
+
+2019-05-25T07:32:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 62
+
+2019-05-25T07:59:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-05-25T08:02:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-05-25T08:17:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-05-25T08:18:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 320
+

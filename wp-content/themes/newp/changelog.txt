@@ -1,0 +1,39 @@
+ChangeLog
+=========
+
+Version 2.0
+
+	i) Major Update
+	ii) Slider Supported via plugin.
+	iii) BUilt on Bootstrap
+	iv) Frameworks Upgraded
+	v) Style Refined
+	
+Version 2.0.1
+
+	i) Minor Bug Fixes.
+	ii) Removed Redundant settings.
+	
+Version 2.0.2
+
+	i) Remove Github generate licence/readme files.		
+	
+Version 2.0.3
+
+	i) Updated Font Awesome	
+	
+Version 2.0.4
+
+	i) Updated Theme for WooCommerce 3.0	
+	
+Version 2.0.5
+
+	i) Corrected Credit Links
+
+Version: 2.1.0
+
+    i) Framework update.
+    ii) Blog layout
+    iii) Google fonts major bug fixed.
+    iv) Header Image minor bug fixed.
+    v) logo minor bug fixed.

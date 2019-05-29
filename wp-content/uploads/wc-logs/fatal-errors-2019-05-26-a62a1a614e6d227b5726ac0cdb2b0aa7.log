@@ -1,0 +1,8 @@
+2019-05-26T03:43:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\widgets\class-wp-widget-meta.php on line 19
+
+2019-05-26T06:40:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\class-core-upgrader.php on line 356
+
+2019-05-26T08:42:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 16
+
+2019-05-26T08:42:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-admin\includes\post.php on line 20
+
